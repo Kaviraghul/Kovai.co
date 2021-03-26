@@ -1,0 +1,340 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: grid;
+  background-color: white;
+}
+
+nav{
+  height: 60px;
+  background:#658FFF;
+  position: fixed;
+  width: 100%;
+}
+
+/*********************************************************navigator*********************************************************/
+
+
+.left{
+  position: fixed;
+  width: 100%;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.fa-bars{
+  padding-top: 16px;
+}
+
+.logo{
+  position: fixed;
+  width: 140px;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.search{
+  padding-left: 350px;
+  padding-top: 18px;
+
+}
+
+.hi__user{
+  font-size: 20px;
+position: absolute;
+margin-top: -20px;
+right: 80px;
+}
+
+.user_avatar{
+  position: absolute;
+  margin-top: -25px;
+  right: 40px;
+}
+
+/*********************************************************right to container *********************************************************/
+
+
+.wrapper {
+  padding-left: 250px;
+  padding-top: 130px;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.main__container{
+  padding-top: 15px;
+}
+
+.myChart1{
+  z-index: -1;
+  height: 200px;
+  width: 600px;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.card{
+  float:left;
+  width:20%;
+  height: 150px;
+  text-align: center;
+}
+
+.icon{
+  padding-top: 10px;
+}
+
+
+.card_numbers{
+  font-size: 20.0pt;
+  font-weight: bold;
+  color: #1DDCA9;
+}
+
+.card_lorem{
+  font-size: 8.0pt;
+  color:#617286;
+}
+
+
+
+
+/*********************************************************sidebar*********************************************************/
+
+.sidebar{
+  background-color: #463BFB;
+  margin-top: 60px;
+  position: fixed;
+  left: 0;
+  width: 15%;
+  height: 100%;
+}
+
+.sidebar a{
+  color: #fff;
+  display: block;
+  line-height: 60px;
+  width: 100%;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.sidebar a:hover{
+  background-color: orange;
+}
+
+.sidebar i{
+  padding-right: 15px;
+}
+
+.sidebar__menu{
+  padding-top: 50px;
+}
+
+.sidebar .container{
+  padding-left: 15px;
+}
+
+
+
+
+/*********************************************************grid skeliton*********************************************************/
+
+.row {
+  position: fixed;
+  padding-left: 250px;
+  display: flex;
+}
+
+.column {
+  padding-top: 150px;
+  flex: 40%;
+}
+
+.column2 {
+background-color: white;
+width: 300px;
+padding: 10px;
+margin: 10px;
+}
+
+.column3 {
+width: 200px;
+padding: 10px;
+margin: 10px;
+}
+
+.row2 {
+  position: fixed;
+  display: flex;
+}
+
+
+/*********************************************************righ_bottom_container*********************************************************/
+
+
+.righ_bottom_container{
+  width: 400px;
+   height: 150px;
+   padding-top: 280px;
+}
+
+/*********************************************************vertical graph*********************************************************/
+
+* {box-sizing: border-box}
+
+.container {
+  width: 80%;
+  float: left;
+  background-color: white;
+  height: 10px;
+}
+
+.container2{
+height: 10px;
+}
+
+.bars{
+  position: relative;
+  text-align: left;
+  color: black;
+}
+
+
+.bar_percentage{
+  font-size: 13px;
+  padding-left: 10px;
+  margin-left: 5px;
+}
+
+
+.bar1 {width: 90%; background-color: #4A3DFF;}
+.bar2 {width: 80%; background-color: #1DDCA9;}
+.bar3{width: 65%; background-color: #4A3DFF;}
+.bar4 {width: 60%; background-color: #1DDCA9;}
+
+
+.box{
+
+  position: relative;
+  width: 150px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direection: column;
+  background: #fff;
+}
+
+.box .percentage{
+  padding:0;
+  position: absolute;
+  left:20px;
+  width: 200px;
+  height: 150px;
+}
+
+.box .percentage svg{
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.box .percentage svg circle{
+  width: 100px;
+  height: 100px;
+  fill: none;
+  stroke-width:6;
+  stroke: #000;
+  transform: translate(5px,5px);
+  stroke-dasharray: 260;
+  stroke-dashoffset: 260;
+}
+
+.box .percentage svg circle:nth-child(1){stroke-dashoffset: 0;
+stroke: #1CDBA8}
+
+.box .percentage svg circle:nth-child(2){stroke-dashoffset: 90%;
+stroke: #4A3DFF}
+
+.box .percentage .number{
+  position: absolute;
+  top: 25px;
+  right: 53px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  align-item: center;
+  color: #4A3DFF;
+}
+
+.box .percentage .number h2{
+  font-size: 24px;
+
+}
+
+.box .percentage .number h2 span{
+  font-size: 23px;
+}
+
+.text{
+  font-size:20px;
+}
+
+.piechart-text{
+  font-size: 9px;
+}
+
+
+.average_chart{
+  width: 600px;
+  height: 250px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.map{
+
+  width: 600px;
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+background-image: url("assets/map.png") !important;
+}
+
+
+.graph_card {
+    max-width: 80%;
+
+    height: 100%;
+    margin: 0 auto;
+
+    header {
+        height: 50px;
+        background: #ccc;
+        border-radius: 8px 8px 0 0;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .graph_main {
+      height: 200px;
+        padding: 20px;
+        background: #fff;
+        border-radius: 0 0 8px 8px;
+    }
